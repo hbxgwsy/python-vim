@@ -52,6 +52,9 @@ let g:pymode_syntax = 1
 let g:pymode_syntax_all = 1
 let g:pymode_syntax_indent_errors = g:pymode_syntax_all
 let g:pymode_syntax_space_errors = g:pymode_syntax_all
+" ======== Tagbar settings ========
+" Map F2 for NERD_Tree
+map <F3> :Tagbar<CR>
 " ======== NERD_Tree settings ========
 " Map F2 for NERD_Tree
 map <F2> :NERDTreeToggle<CR>
